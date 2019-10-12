@@ -1,0 +1,20 @@
+.wrapped {
+    width: 25%;
+    height: auto;
+    text-align: left;
+    margin: 1rem;
+}
+.wrapped img {
+    display: block;
+    float: left;
+    width: 150px;
+    height: auto;
+    padding: 5px;
+}
+.wrapped:after {
+    clear: both;
+    content: " ";
+    visibility: hidden;
+    display: block;
+    height: 0;
+}

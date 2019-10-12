@@ -1,0 +1,22 @@
+.active {
+    background-color: black;
+    color: white;
+}
+a {
+    color: black;
+}
+a:visited {
+    color: gray;
+}
+a:active {
+    background-color: yellow;
+}
+a:hover {
+    color: red;
+}
+nav ul {
+    list-style-type: none;
+}
+nav li a {
+    text-decoration: none;
+}
